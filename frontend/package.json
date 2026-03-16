@@ -1,0 +1,7 @@
+{
+  "name": "mobile-wardrobe-preview",
+  "private": true,
+  "scripts": {
+    "start": "cd ../mobile_wardrobe && CI=1 BROWSER=none CHROME_FLAGS='--no-sandbox --disable-setuid-sandbox --disable-dev-shm-usage' HOST=0.0.0.0 EXPO_NO_TELEMETRY=1 npx expo start --clear --web --port 3000"
+  }
+}
